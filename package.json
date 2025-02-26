@@ -1,0 +1,31 @@
+{
+  "name": "nodets-canil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev":"nodemon -e ts,json,mustache src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateus018/nodets-canil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateus018/nodets-canil/issues"
+  },
+  "homepage": "https://github.com/mateus018/nodets-canil#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mustache-express": "^1.2.5",
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mustache-express": "^1.3.2"
+  }
+}
