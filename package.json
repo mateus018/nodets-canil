@@ -7,9 +7,9 @@
     "node": "22.x"
   },
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "start": "node dist/server.js",
-    "postinstall": "npm run tsc && copyfiles -u 1 src/**/*.mustache dist/",
+    "postinstall": "npm run build && copyfiles -u 1 src/**/*.mustache dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "nodemon -e ts,json,mustache src/server.ts"
   },
